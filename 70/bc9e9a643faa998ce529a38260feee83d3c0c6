@@ -1,0 +1,76 @@
+python/sglang/srt/mem_cache/hisparse_spec.py
+  s_a204cdc4cfa791::t_e5ab84abda8b87 1-282
+python/sglang/srt/layers/attention/dsv4/indexer.py
+  s_a204cdc4cfa791::t_91d45225d9f5b6 914-918,927-930,1107,1111-1127
+  s_a204cdc4cfa791::t_d4218bfc1cecbc 921,931-932
+python/sglang/srt/model_executor/pool_configurator.py
+  s_a204cdc4cfa791::t_77e04a3646b6bc 234
+  s_a204cdc4cfa791::t_fe39b082ad7950 218-233,235-243,287-292,528,587-604,617-628,631-641
+  s_a204cdc4cfa791::t_91d45225d9f5b6 1176-1183,1570-1579,1585,1609
+  s_a204cdc4cfa791::t_3ccda1857c7b2f 642
+python/sglang/srt/layers/attention/dsa_backend.py
+  s_a204cdc4cfa791::t_fe39b082ad7950 325,1147-1201,1956-1962,2057-2066,2102,2301-2307,3680-3686,3689-3692
+python/sglang/srt/mem_cache/kv_cache_configurator.py
+  s_a204cdc4cfa791::t_fe39b082ad7950 536-543,1645,2392-2395
+python/sglang/srt/disaggregation/mooncake/conn.py
+  s_a204cdc4cfa791::t_fe39b082ad7950 160,165-170,214,217-221,1095-1188,2242-2247,2256-2259,2328-2338,3038
+python/sglang/srt/speculative/dspark_components/dspark_worker_v2.py
+  s_a204cdc4cfa791::t_91d45225d9f5b6 899-905
+python/sglang/srt/managers/hisparse_coordinator.py
+  s_a204cdc4cfa791::t_91d45225d9f5b6 24-25,27,30-32,45,149,208-212,224-231,298-302,313-378,530,537-539,577,607-632,733-734,907-1055
+python/sglang/srt/layers/attention/deepseek_v4_backend.py
+  s_a204cdc4cfa791::t_91d45225d9f5b6 2115,2117,2127-2141
+  s_a204cdc4cfa791::t_00ce58ed2643af 2142-2143
+python/sglang/kernels/jit/csrc/kvcacheio/hisparse_spec.cuh
+  s_a204cdc4cfa791::t_8b56704d8ec90f 10-11,53-54,299,304,307-308,320-322,331,344-350,372,433-439,486,500,540-541,547-553,609,622,668,702,704,729,819-820,880,897,903-904,919,921,986,1002-1003,1024,1033,1056-1527
+python/sglang/kernels/jit/csrc/kvcacheio/hisparse_transfer.cuh
+  s_a204cdc4cfa791::t_d98c88379dee4c 1-102
+python/sglang/kernels/jit/utils/compile/ninja.py
+  s_a204cdc4cfa791::t_91e78ef3ab0313 117-118
+python/sglang/kernels/ops/kvcache/hisparse.py
+  s_a204cdc4cfa791::t_c81684be8fb3f0 20-21,42-53,61,69,101-102,111,113-114,117,154-156,163,181,290-476
+python/sglang/srt/arg_groups/hisparse_hook.py
+  s_a204cdc4cfa791::t_63af73343f73d9 91-92,104-111
+python/sglang/srt/disaggregation/base/conn.py
+  s_a204cdc4cfa791::t_04b99cc6d5bfc1 53-55
+python/sglang/srt/disaggregation/decode.py
+  s_a204cdc4cfa791::t_4fd2af556519ed 564,598,1256,1265,1495,1641-1656,1697-1710
+python/sglang/srt/disaggregation/prefill.py
+  s_a204cdc4cfa791::t_57cca3211c10a5 228,263
+python/sglang/srt/managers/scheduler.py
+  s_a204cdc4cfa791::t_15803cfb47b8ae 5443-5444
+python/sglang/srt/managers/scheduler_components/dp_attn.py
+  s_a204cdc4cfa791::t_46362c24eb9758 266-287,428-433
+python/sglang/srt/mem_cache/allocation.py
+  s_a204cdc4cfa791::t_70d5fedb2c6cdd 751-780
+python/sglang/srt/mem_cache/sparsity/factory.py
+  s_a204cdc4cfa791::t_c65bee89917366 63-66,69-71
+python/sglang/srt/model_executor/forward_batch_info.py
+  s_a204cdc4cfa791::t_47c5b9741c2ab0 1906-1910
+python/sglang/srt/model_executor/model_runner.py
+  s_a204cdc4cfa791::t_df3fdf5a8408f9 948,954,979-983,1608-1610,1635,1861-1863,1866-1870
+python/sglang/srt/model_executor/runner/eager_runner.py
+  s_a204cdc4cfa791::t_40259ee64d285c 49,453-455,461,463
+python/sglang/srt/speculative/dflash_info_v2.py
+  s_a204cdc4cfa791::t_401920f8483b33 197-200,213-219
+python/sglang/srt/speculative/eagle_utils.py
+  s_a204cdc4cfa791::t_35de04510edeef 1098-1106
+python/sglang/srt/speculative/eagle_worker_common.py
+  s_a204cdc4cfa791::t_ce9c23d3dff8b4 603-615
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "70bc9e9a643faa998ce529a38260feee83d3c0c6",
+  "prompts": {},
+  "sessions": {
+    "s_a204cdc4cfa791": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a0c6e7-7492-7592-8d08-2f4aaa9a0266",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "ilovecoding84 <draculahan@126.com>"
+    }
+  }
+}
